@@ -3,47 +3,75 @@
 	<head>
     	<meta charset="utf-8" />
     	<link rel="stylesheet" href="Reservia.css" />
+    	<link rel="stylesheet" href="icones/fontawesome-free-5.15.1-web/css/all.min.css">
     	<title>Reservia</title>
-    	
+
     	<!-- Facebook & twitter Card data -->
-    	<meta name="Location" content="Trouvez votre hébergement pour des vacances de rêve">
-    	<!-- Open Graph data -->
+    	<meta name="Location" content="RESERVIA vous permet de trouver votre hébergement pour des vacances de rêve. Chercher une villa, une maison, un appartement, un chalet. Partez à la mer, à la montagne, à la campagne... Trouver des activités, des loisirs pendant vos vacances">
+    
+    	<!-- Open Graph Meta Facebook & twitter -->
 		<meta property="og:title" content="hébergement"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.reservia.com/"/>
 		<meta property="og:image" content="images/logo/Reservia@3x.png"/>
-		<meta property="og:description" content="Trouvez votre hébergement pour des vacances de rêve"/> 		
+		<meta property="og:description" content="Trouvez votre hébergement pour des vacances de rêve"/> 
+
+		<!-- Canonical Link -->
+        <link rel="canonical" href="https://www.reservia.fr" />		
+
+        <!-- Place your kit's code here -->
+        <script src="https://kit.fontawesome.com/6388b4f177.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
-
 		<div id="bloc_page">
-			<!-- Header -->
-		   	<header>
-				<div id="titre_principal">
-				    <div id="logo">
-				        <img src="images/logo/Reservia@3x.png" alt="reservia"/> 				
-				    </div>
-				    	<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-				        <h2>En plein centre ville ou en nature</h2>
-				</div>
 
-				<nav>
-					<ul>
-						<li><a href="#">Hébergements</a></li>
-						<li><a href="#">Activités</a></li>
-						<li><a href="#">S'inscrire</a></li>
-					</ul>
-				</nav>	
-		   	</header>
+			<!-- HEADER logo et menu -->
+			<header id="titre_principal">
+			  	
+			  	<img id="logo" src="images/logo/Reservia.svg" alt="reservia">
+			  	
+				<!-- Quand le visiteur sélectionne le lien hébergements ou activités -->
+			   
+			    <!-- Quand le visiteur sélectionne le lien hébergements ou activités -->
+			   
+			    <nav class="headerNav">
+			    	<ul>
+			      	<li><a class="header_nav" href="#hébergements">Hébergements</a></li>
+			      	<li><a class="header_nav" href="#activités">Activités</a></li>
+			   		<!-- Quand le visiteur a sélectionné le lien s'inscrire -->
+			    	<li><a class="inscription_visité" href="#inscrire"><strong>S'inscrire</strong></a></li>
+			    	</ul> 
+				</nav>
+			</header>
 		   
-		   	<!-- Section 1 Localisation, filtre et article -->
-		   	<section id="section_1">
+		   	<!-- Section 1 Recherche, Localisation, filtre et article -->
+		   	<article id="section2recherche">
+				<div class="titre_recherche">
+					<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+					<p>En plein centre ville ou en pleine nature</p>
+				</div>
+			</article>
+			<section id="recherche">
+				<div class="icone2recherche">
+					<i class="fas fa-map-marker-alt fa-1x"></i>
+				</div>
+				<div class="panneau2recherche">
+					<p>Marseille, France</p>
+				</div>
+				<div id="onglet2recherche">
+					<p>Rechercher</p>
+				</div>	
+			</section>
+			<section id="filtres">
+			<!-- les filtres -->	
 				<div id="Localisation"></div>
 		   		<div id="filtre"></div>
 				<div id="icone"/div>
-!-- mettre l'icone avec font awesome et placer le <p> après -->
-					<p></p>
+					<i class="fas fa-dog"></i>
+			<!-- mettre l'icone avec font awesome et placer le <p> après -->
+				<i class="fas fa-info-circle"></i>
+				<p>Plus de 500 logements sont disponibles dans cette ville</p>
 			</section> 
 
 		   	<!-- Section 2 Description hébergement -->
