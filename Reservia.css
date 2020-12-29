@@ -38,30 +38,24 @@ body
     font-family: 'ralewaymedium', 'ralewaylight', 'ralewayblack', arial, sans-serif;
     color: #181818; 
     background-color:white;
-    border: blue solid; 
     display: flex;
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
 }
-#bloc_page 
-{ 
-    border: black solid;
-}
+
 /*Header avec logo et menu en haut à droite */
 header
 {
     background: url('image/mind-544404_1920.png') repeat-x bottom;
     display: flex;
     justify-content: space-between;
-    border: yellow solid;
     font-weight: normal;
     height: 100px;
 }
 .headerNav
 {
     display: flex;
-    border: blue solid; 
     
 }
 .header_nav
@@ -71,8 +65,7 @@ header
     justify-content: center;
     width: 75%;
     height: 100px;
-    margin-right: 60px;
-    border: red solid;      
+    margin-right: 60px;  
 }
 nav a
 {
@@ -95,13 +88,11 @@ ul
     display: flex;
     align-items: center;
     list-style-type: none;
-    border: green solid;
     font-size: black;
 }
 /*titre et barre de recherche avec filtre */
 .titre_recherche
 {
-    border: yellow solid;
     font-size: 0.8em;
     color: #181818;
     margin-top: -23px 
@@ -151,5 +142,62 @@ ul
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/*selection de filtres */
+
+#selection2filtres
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.selection2filtres
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bouton_filtres
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 4%;
+}
+.bouton_filtres p
+{
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 2px solid #F2F2F2;
+    padding: 0px 25px 0px 65px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.bouton_rond 
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #DEEBFF;
+}
+.fa-money-bill-wave,
+.fa-male,
+.fa-heart,
+.fa-dog
+{
+    color: #0065FC;
+    font-size: 1.1em;
+}
+.Filtres p
+{
+    font-weight: bold;
+}
+
 
 
