@@ -70,7 +70,11 @@ header
     justify-content: center;
     width: 75%;
     height: 100px;
-    margin-right: 60px;  
+    margin-right: 70px;  
+}
+.inscription_visité
+{
+    margin-left: 25px;
 }
 nav a
 {
@@ -165,7 +169,7 @@ ul
     align-items: center;
     flex-direction: row;
     position: relative;
-    margin-left: 4%;
+    margin-left: 18px;
 }
 .bouton_filtres p
 {
@@ -173,7 +177,7 @@ ul
     display: flex;
     align-items: center;
     border: 2px solid #F2F2F2;
-    padding: 0px 25px 0px 65px;
+    padding: 0px 35px 0px 65px;
     border-radius: 25px;
     font-weight: bold;
 }
@@ -235,14 +239,179 @@ ul
 {
     display: flex;
     flex-direction: row;
-    border: 1px black solid;
+    justify-content: space-between;
+    height: 600px; 
+}
+ .marseille
+ {
+    margin: 0px 0px 0px 0px;
+ }
+ .plus
+ {
+    display:flex;
+    flex-direction: row;
+    height: 55px;
+    padding-left: 40px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
 .hébergement
+{
+    background: #F2F2F2;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+}
+.selection_hébergement
+{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 600px;
+  padding: 0px 10px 5px 10px;
+}
+.img_font1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    width: 225px;
+    height: 200px;
+    margin: -15px 14px 0 14px;
+}
+.img_font2s
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding-left: 6%;
+}
+.img_font2s1 
+{
+    margin-bottom: -7px;
+}
+.img_font2s2 
+{
+    margin-bottom: 7px; 
+}
+
+.img_font2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 105px;
+    margin-bottom: -10px;
+}
+.img_font3
+{
+    padding: 4px;
+    width: 215px;
+    height:100px;
+    border-radius: 20px 20px 0px 0px / 20px 20px 0px 0px;
+}
+h2
+{
+    font-size: 1.1em;
+    padding: 30px 0px 10px 40px;
+}
+
+/*images des hébergements populaires */
+
+.populaires
+{
+     background: #F2F2F2;
+     border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+     margin-right: -3%;
+     width: 35%;
+ }
+ .marseille
+ {
+    margin: 0px 0px 0px 0px;
+ }
+.most_popular
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px green solid;
-    width: 60%;
-    height: 500px;
+    align-items: center;
+    margin: -15px 0px 0px 0px;
+}
+.most_popular h2
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.fa-chart-line
+{
+    font-size: 1.4em;
+    margin-right: 9%; 
+    margin-top: 6%
+}
+.img_popular
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_font4
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white; 
+    height: 140px;
+    width: 85%;
+    margin-bottom: 35px;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+}
+.img_font5
+{
+    display: flex;
+    align-items: center;
+
+}
+.img_font6
+{
+    
+    padding: 1px;
+    width: 145px;
+    height:131px;
+    border-radius: 20px 0px 0px 20px / 20px 0px 0px 20px;
+    margin-left: 3%;
+}
+.img_font7
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+    padding-left: 22px;
+}
+
+.star
+{
+    
+    margin-bottom: 10px;
+}
+h3 
+{
+    font-size: 0.9em;
+    margin-bottom: 1px;
+}
+.fa-star 
+{
+    color: #0065FC;
+}
+#description_hébergement p 
+{
+    font-size: 0.8em;
 }
