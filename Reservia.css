@@ -97,7 +97,6 @@ nav a
     display: flex;
     align-items: center;
     list-style-type: none;
-    font-size: black;
     font-size: 0.9em;
     color: #181818; 
     text-decoration: none; 
@@ -114,9 +113,10 @@ nav a
    display:flex;
    flex-direction: row; 
    flex-wrap: nowrap;
-   margin-top: 15px;
-   width: 29%;
+   margin-top: 20px;
+   width: 30%;
    height: 40px;
+   margin-bottom: 30px;
 }
 .icone2recherche
 {
@@ -130,21 +130,28 @@ nav a
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.panneau2recherche
+.panneau2recherche input
 {
     border: 0.5px #F2F2F2 solid;
     width: 200px;
-    margin-right: 0px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 5%
+    height: 36px;
+    margin-right: 11px;
+    padding-left: 5%;
 }
+#recherche_hébergement::placeholder
+{
+    color:black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
 #onglet2recherche
 { 
     width: 125px;
     background-color: #0065FC;
     color: white;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,6 +166,7 @@ nav a
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 15px;
 }
 .selection2filtres
 {
@@ -171,8 +179,25 @@ nav a
     display: flex;
     align-items: center;
     flex-direction: row;
+    height: 40px;
     position: relative;
     margin-left: 18px;
+    border-radius: 25px;
+}
+.bouton_filtres :hover
+{
+    color: white;
+    font-size: 1.5em;
+    background-image:url(images/gif/fond2filtre.gif);
+    background-repeat:no-repeat;
+}
+.bouton_filtres p:hover:before 
+{ 
+content:" <a class=' ";
+}
+.bouton_filtres p:hover:after 
+{ 
+content:" '></a> ";
 }
 .bouton_filtres p
 {
@@ -253,9 +278,10 @@ nav a
  {
     display:flex;
     flex-direction: row;
-    height: 55px;
-    padding-left: 40px;
-    padding-top: 5px;
+    height: 20px;
+    width: 11%;
+    margin-left: 5%;
+    margin-bottom: 35px; 
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -268,16 +294,17 @@ nav a
     flex-direction: column;
     width: 66%;
 }
-.selection_hébergement
+.selection_hébergement 
 {
-  display: flex;
-  flex-direction: row;
-  align-content: space-around;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 600px;
-  padding: 0px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 600px;
+    padding: 0px 10px 5px 10px;
 }
+
 .img_font1
 {
     display: flex;
@@ -289,13 +316,16 @@ nav a
     height: 200px;
     margin: -15px 25px 0 14px;
 }
+
 .img_font2s
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100px;
+    height: 90px;
     padding-left: 6%;
+    color: black;
+
 }
 .img_font2s1 
 {
@@ -312,13 +342,18 @@ nav a
     flex-direction: row;
     justify-content: center;
     height: 105px;
-    margin-bottom: -10px;
+    margin-bottom: -10px;      
+}
+a
+{
+    text-decoration: none;
+    color: black;
 }
 .img_font3
 {
     padding: 4px;
     width: 215px;
-    height:100px;
+    height:110px;
     border-radius: 20px 20px 0px 0px / 20px 20px 0px 0px;
 }
 h2
@@ -384,8 +419,7 @@ h2
 }
 .img_font6
 {
-    
-    padding: 1px;
+    margin-top: 4px;
     width: 145px;
     height:131px;
     border-radius: 20px 0px 0px 20px / 20px 0px 0px 20px;
@@ -430,6 +464,7 @@ h3
 {
     font-size: 0.8em;
 }
+
 /*Activité*/
 #résultat_activité
 {
