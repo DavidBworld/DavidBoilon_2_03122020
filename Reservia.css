@@ -78,7 +78,7 @@ header
 }
 nav a
 {
-    font-size: 0.9em;
+    font-size: 1em;
     color: #181818; 
     text-decoration: none; 
 }
@@ -92,12 +92,15 @@ nav a
     color: #0065FC;
     font-weight: bolder;
 }
-ul
+#headerNav
 {
     display: flex;
     align-items: center;
     list-style-type: none;
     font-size: black;
+    font-size: 0.9em;
+    color: #181818; 
+    text-decoration: none; 
 }
 /*titre et barre de recherche avec filtre */
 .titre_recherche
@@ -545,25 +548,25 @@ h3
 /*footer*/
 footer
 {
-    border: 1px black solid;
     height: 200px;
     background-color: #F2F2F2;
     display: flex;
-    flex-direction: row;
+    margin-right: -3%;
+    margin-left: -3%;
+ 
 }
-#A_propos
+#titre_footer
 {
-  border: 1px red solid;  
+    margin-right: 14%;  
 }
-#liste_a_propos
+#titre_footer h2
 {
+    font-size: 1.1em;
+}
+#footer_Nav li
+{
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
 
-    border: 1px green solid;
-}
-.liste_propos
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border: 1px yellow solid;
-}
