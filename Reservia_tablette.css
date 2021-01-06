@@ -1,0 +1,7 @@
+@media all and (max-width: 1024px)
+{
+    #bloc_page1
+    {
+        width: auto;
+    }
+}

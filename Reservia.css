@@ -605,3 +605,9 @@ footer
     margin-bottom: 5px;
 }
 
+#bloc_page
+{
+    width: 1280px;
+    margin: auto;
+}
+

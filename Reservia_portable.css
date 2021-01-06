@@ -1,0 +1,11 @@
+@media all and (max-width: 600px)
+{
+    #bloc_page1
+    {
+        width: auto;
+    }
+    header
+    {
+    	display: none;
+    }
+}
