@@ -65,6 +65,7 @@ article ,
 }
 #header{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -74,8 +75,8 @@ article ,
 #inscription{
     padding: 40px;
 }
-#header a:nth-child(1):hover, 
-#header a:nth-child(2):hover{
+.nav_header a:nth-child(1):hover, 
+.nav_header a:nth-child(2):hover{
     color: #0065FC;
     border-top: 1px solid #0065FC;
 }
@@ -90,13 +91,19 @@ article ,
     color: #181818;
     margin-top: -23px
 }
+.titre_recherche h1{
+    font-weight: 900;
+}
+.titre_recherche p, strong{
+    font-size: 15px;
+}
 #recherche{ 
    display:flex;
    flex-direction: row; 
    flex-wrap: nowrap;
    margin-top: 20px;
-   width: 30%;
-   height: 40px;
+   width: 35%;
+   height: 49px;
    margin-bottom: 30px;
 }
 .icone2recherche{
@@ -107,13 +114,13 @@ article ,
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
 }
 .panneau2recherche input{
     border: 0.5px #F2F2F2 solid;
     width: 200px;
-    height: 36px;
+    height: 45px;
     margin-right: 11px;
     padding-left: 5%;
 }
@@ -130,8 +137,8 @@ article ,
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
 }
 /*selection de filtres */
 #selection2filtres{
@@ -296,6 +303,7 @@ a{
     width: 225px;
     height:110px;
     border-radius: 20px 20px 0px 0px / 20px 20px 0px 0px;
+    object-fit: cover;
 }
 h2{
     font-size: 1.1em;
@@ -351,6 +359,7 @@ h2{
     height:131px;
     border-radius: 20px 0px 0px 20px / 20px 0px 0px 20px;
     margin-left: 3%;
+    object-fit: cover;
 }
 .img_font7{
     display: flex;
@@ -420,7 +429,8 @@ h3 {
 .img_act1{
     height: 397px;
     width: 100%;
-    border-radius: 20px 20px 0 0 / 20px 20px 0 0; 
+    border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+    object-fit: cover; 
 } 
 #img_act2{
     height: 450px;
@@ -436,6 +446,7 @@ h3 {
     height: 190px;
     width: 100%;
     border-radius: 20px 20px 0 0 / 20px 20px 0 0; 
+    object-fit: cover;
 }
 .frame_act3{
     border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
@@ -445,6 +456,7 @@ h3 {
     height: 120px;
     width: 100%;
     border-radius: 20px 20px 0 0 / 20px 20px 0 0; 
+    object-fit: cover;
 }
 #img_act4{
     height: 450px;
@@ -456,7 +468,8 @@ h3 {
 .img_act4 {
     height: 397px;
     width: 100%;
-    border-radius: 20px 20px 0 0 / 20px 20px 0 0; 
+    border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+    object-fit: cover; 
 }
 #img_act5{
     height: 450px;
@@ -472,6 +485,7 @@ h3 {
     height: 120px;
     width: 100%;
     border-radius: 20px 20px 0 0 / 20px 20px 0 0; 
+    object-fit: cover;
 }
 .frame_act6{
     border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
@@ -481,6 +495,7 @@ h3 {
     height: 190px;
     width: 100%;
     border-radius: 20px 20px 0 0 / 20px 20px 0 0;
+    object-fit: cover;
 }
 /*footer*/
 footer{

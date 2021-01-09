@@ -1,4 +1,18 @@
-@media all and (max-width: 1024px)
-{
+@media all and (max-width: 1024px){
 
+header{
+	padding: 0 15px 0 15px;
+}
+#hebergements,
+#activites,
+#inscription{
+    padding: -20px;
+}
+#header{
+	margin-right: -15px;
+}
+.titre_recherche h1{
+    font-weight: 900;
+    font-size: 15px
+}
 }

@@ -1,35 +1,22 @@
 @media all and (max-width: 600px)
 {
-header ,
-#section2recherche ,
-#recherche ,
-#selection2filtres ,
-article ,{
-    padding: 0 5px 0 5px;
-}
 header{
-    display:flex;
-    width: 100%;
-    flex-wrap: wrap;
+    justify-content:none;
+    width: auto;
     border: 1px red solid;
+    margin: 0 -31px 0 -31px;
     }
-    #header a:nth-first-child{
-        display: flex;
-        height: 62px;
-        order: 1;
-        width: 38.4vw;
-        padding: 0 5.6vw 0 5.6vw;
+#header{
+        height: 400px;
+        width: 375;
         border: 1px black solid;
+}
+
+.nav_header{
+    flex-direction: column;
+    border: 1px green solid;
     }
-    #header a:nth-child(2){
-    order: 3;
-        }
-    #header a:nth-child(3){
-    order: 4;
-    }
-    #header a:nth-last-child{
-    order: 2;
-    }
+/*research*/
 #recherche{
     padding-bottom: 30px;
 }
@@ -39,15 +26,9 @@ header{
 #onglet2recherche{ 
     width: 50px;    
 }
-.onglet2recherche p {
-  text-indent: -9999px;
-  line-height: 0;
+#onglet2recherche p {
+  display:none;
 }
-#onglet2recherche p::after{
-  content: "fas fa-search";
-  text-indent: 0;
-  display: block;
-  line-height: initial;
 
-}
+
 }
