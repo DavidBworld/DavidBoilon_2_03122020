@@ -12,8 +12,11 @@ header{
 	margin-right: -15px;
 }
 .titre_recherche h1{
-    font-weight: 900;
-    font-size: 15px
+    font-size: 20px;
+}
+.titre_recherche p, 
+.titre_recherche strong{
+
 }
 #recherche{
 	display: inline-flex;
@@ -26,23 +29,113 @@ header{
 /*filtre*/
 #selection2filtres{
 	flex-direction: column;
-	border:2px yellow solid;
-	height: 250px;
+	align-items: flex-start;
+	height: auto;
 }
 .selection2filtres{
 	flex-direction: row;
+	justify-content: space-around;
 	height: auto;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	border:2px green solid;
 }
-/*les bébergements*/
+.bouton_filtres{
+	padding-bottom: 10px;
+	margin-left: -18px;
+}
+
+/*les bébergements et les populaires*/
 #description_hébergement{
-	width: auto;
 	height:1500px;
 	display: flex;
 	flex-direction: column-reverse;
 }
+/*Les populaires*/
+.populaires{
+	width: auto;
+	margin: 50px -34px 0 -34px;
+	border-radius: 0;
+}
+.fa-chart-line{
+    font-size: 1.2em;
+    margin-right: 9%; 
+    margin-top: 2%
+}
+.img_font4{
+    height: 155px;
+    width: 85%;
+    margin-bottom: 35px;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+}
+.img_font6{
+    width: 240px;
+    height:141px;
+}
+.img_font7{
+    padding-left: 30px;
+    height:141px;
+    font-size: 1.2em;
+}
 
-
+.most_popular{
+	font-size: 1.1em;
+	padding-left: 20px;
+}
+/*les hébergements*/
+.hébergement{
+	width: auto;
+	height: 900px;
+	margin: 0 -32px 0 -32px;
+	justify-content: space-around;
+	background-color: white
+}
+.selection_hébergement {
+	width: auto;
+    height: 800px;
+    flex-direction: row;
+    padding-top: 3px;
+}
+article{
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+}
+.img_font1{
+    width: 43%;
+    height: 230px;
+    box-shadow: 0 3px 5px 3px #F2F2F2;    
+}
+.img_font3{
+    width: 98%;
+    height:140px;
+}
+.hébergement h2{
+	font-size: 1.3em; 
+}
+.img_font2s1{
+	font-size: 1.1em;
+}
+.img_font2s2{
+	font-size: 1.2em;
+}
+.star{
+	font-size: 1em;
+}
+.plus{
+    width: auto;
+    margin-top: 10px;
+    padding-left: 3px;
+}
+#résultat_activité{
+	font-size: 1.3em;
+}
+/*les activités*/
+/*le footer*/
+footer{
+    height: auto;
+    width: auto;
+    background-color: #F2F2F2;
+    display: flex;
+}
+#titre_footer{
+    margin-right: 50px;
+}
 }
