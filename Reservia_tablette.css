@@ -1,5 +1,5 @@
 @media all and (max-width: 1024px){
-
+/*header*/
 header{
 	padding: 0 15px 0 15px;
 }
@@ -15,4 +15,34 @@ header{
     font-weight: 900;
     font-size: 15px
 }
+#recherche{
+	display: inline-flex;
+	justify-content: center;
+	width: auto;
+}
+.icone2recherche{
+	width: 70%;
+}
+/*filtre*/
+#selection2filtres{
+	flex-direction: column;
+	border:2px yellow solid;
+	height: 250px;
+}
+.selection2filtres{
+	flex-direction: row;
+	height: auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border:2px green solid;
+}
+/*les bébergements*/
+#description_hébergement{
+	width: auto;
+	height:1500px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+
 }
