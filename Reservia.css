@@ -240,6 +240,7 @@ content:" '></a> ";
 }
  .marseille{
     margin: 0px 0px 0px -10px;
+    font-size: 1.2em;
 }
  .plus{
     display:flex;
@@ -328,12 +329,14 @@ h2{
 .fa-chart-line{
     font-size: 1.4em;
     margin-right: 9%; 
-    margin-top: 6%
+    margin-top: 3%
 }
 .img_popular{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+    width: auto;
 }
 .img_font4{
     display: flex;
@@ -348,13 +351,13 @@ h2{
 .img_font5{
     display: flex;
     align-items: center;
+    width: 40%
 }
 .img_font6{
-    margin-top: 4px;
-    width: 145px;
+    margin: 8px 0 3px 6px;
+    width: 100%;
     height:131px;
     border-radius: 20px 0px 0px 20px / 20px 0px 0px 20px;
-    margin-left: 3%;
     object-fit: cover;
 }
 .img_font7{
@@ -362,7 +365,8 @@ h2{
     flex-direction: column;
     justify-content: space-between;
     height: 130px;
-    padding-left: 22px;
+    width: 180px;
+    padding-left: 11%;
 }
 .descrption_img_font7 h3{
     padding-right: 3px;

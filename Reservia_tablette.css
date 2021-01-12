@@ -29,18 +29,21 @@ header{
 /*filtre*/
 #selection2filtres{
 	flex-direction: column;
-	align-items: flex-start;
+	align-content: flex-start;
 	height: auto;
+	width: auto;
 }
 .selection2filtres{
 	flex-direction: row;
 	justify-content: space-around;
 	height: auto;
+	width: auto;
 	flex-wrap: wrap;
+	margin: 0 -30px 0 -30px;
 }
 .bouton_filtres{
-	padding-bottom: 10px;
-	margin-left: -18px;
+	padding-bottom: 30px;
+	margin-left: 10px;
 }
 
 /*les bébergements et les populaires*/
@@ -61,18 +64,19 @@ header{
     margin-top: 2%
 }
 .img_font4{
+    align-content: flex-start;
     height: 155px;
-    width: 85%;
+    width: 92%;
     margin-bottom: 35px;
     border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
 }
 .img_font6{
-    width: 240px;
+    width: 30%px;
     height:141px;
 }
 .img_font7{
-    padding-left: 30px;
     height:141px;
+    width: 100%;
     font-size: 1.2em;
 }
 
@@ -83,7 +87,7 @@ header{
 /*les hébergements*/
 .hébergement{
 	width: auto;
-	height: 900px;
+	height: 890px;
 	margin: 0 -32px 0 -32px;
 	justify-content: space-around;
 	background-color: white
@@ -93,6 +97,7 @@ header{
     height: 800px;
     flex-direction: row;
     padding-top: 3px;
+    padding-left: -3px;
 }
 article{
 	padding-bottom: 40px;
@@ -100,12 +105,16 @@ article{
 }
 .img_font1{
     width: 43%;
-    height: 230px;
-    box-shadow: 0 3px 5px 3px #F2F2F2;    
+    height: 240px;
+    box-shadow: 0 3px 5px 3px #F2F2F2;
+ 	margin-bottom: 20px;
 }
 .img_font3{
-    width: 98%;
+    width: 96%;
     height:140px;
+}
+.img_font2s{
+	padding: 30px 0 0 25px;
 }
 .hébergement h2{
 	font-size: 1.3em; 
@@ -122,12 +131,47 @@ article{
 .plus{
     width: auto;
     margin-top: 10px;
-    padding-left: 3px;
+    padding-left: 10px;
 }
 #résultat_activité{
 	font-size: 1.3em;
 }
 /*les activités*/
+#résultat_activité{
+	font-size: 1.3em
+}
+.ensemble_images{
+	border: 1px black solid;
+	flex-wrap: wrap;
+	width: auto;
+	height: 900px;
+}
+#img_act1,
+#img_act2,
+#img_act3,
+#img_act4,
+#img_act5,
+#img_act6{
+	border: 1px red solid;
+	width: 240px;
+	height: 230px
+}
+.img_act1,
+.img_act2,
+.img_act3,
+.img_act4,
+.img_act5,
+.img_act6{
+	border: 1px green solid;
+	width: 240px;
+	height: 180px
+}
+#img_act2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
 /*le footer*/
 footer{
     height: auto;
