@@ -1,15 +1,13 @@
 @media all and (max-width: 600px)
 {
 header{
-    justify-content:none;
     width: auto;
     border: 1px red solid;
-    margin: 0 -31px 0 -31px;
     }
 #header{
-        height: 400px;
-        width: 375;
-        border: 1px black solid;
+    height: 400px;
+    width: 100%;
+    border: 1px black solid;
 }
 
 .nav_header{
@@ -18,7 +16,10 @@ header{
     }
 /*research*/
 #recherche{
+    width: 89%;
     padding-bottom: 30px;
+    border: 1px blue solid;
+    padding-right: 1% 
 }
 .icone2recherche{
     width: 50px;  
@@ -29,6 +30,18 @@ header{
 #onglet2recherche p {
   display:none;
 }
+/*les filtres*/
+#selection2filtres{
+    justify-content: flex-start;
+    border: 1px red solid;
+}
+.Filtres{
+    border: 1px blue solid;
+}
+/*footer en colonne*/
+footer{
+    display: flex;
+    flex-direction: column;
 
-
+}
 }
