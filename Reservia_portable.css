@@ -5,7 +5,7 @@ header{
     border: 1px red solid;
     }
 #header{
-    height: 400px;
+    height: 250px;
     width: 100%;
     border: 1px black solid;
 }
@@ -13,13 +13,28 @@ header{
 .nav_header{
     flex-direction: column;
     border: 1px green solid;
-    }
+    height:252px;
+}
 /*research*/
+/*slogan h1*/
+.titre_recherche h1{
+    font-size: 1.7em;
+}
+#section2recherche{
+    height: auto;
+    padding: 0;
+    margin:0;
+}
+.titre_recherche{
+    width: 100%;
+    padding: 4%;
+    margin:0;
+}
 #recherche{
-    width: 89%;
-    padding-bottom: 30px;
-    border: 1px blue solid;
-    padding-right: 1% 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
 }
 .icone2recherche{
     width: 50px;  
@@ -32,16 +47,78 @@ header{
 }
 /*les filtres*/
 #selection2filtres{
+    height: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     border: 1px red solid;
 }
+.bouton_filtres{
+    border: 1px green solid;
+}
 .Filtres{
     border: 1px blue solid;
+}
+/*les populaires*/
+.populaires{
+    height: 667px;
+    border: 1px black solid;
+    margin: -50px -34px 0 -34px;
+    padding: 0
+}
+.most_popular{
+    font-size: 1.1em;
+    padding:0;
+    margin-left: -13px;
+}
+.descrption_img_font7{
+    border: 1px black solid;
+    padding: 0;
+    margin: 0;
+    width: auto;
+
+}
+/*les hébergements*/
+#description_hébergement{
+    height: 2350px;
+}
+.img_font1{
+    width: 100%;
+}
+.hébergement{
+    width: auto;
+    height: 1680px;
+    margin: 0 -20px 0 -20px;
+}
+.selection_hébergement {
+    width: auto;
+    height: 1600px;
+}
+.ensemble_images{
+    height: 1280px;
+    padding: 0 18px 0 18px;
+    border: 1px red solid;
+}
+#img_act1,
+#img_act2,
+#img_act3,
+#img_act4,
+#img_act5,
+#img_act6{
+    width: 100%;
+    height: 190px;
+}
+.img_act1,
+.img_act2,
+.img_act3,
+.img_act4,
+.img_act5,
+.img_act6{
+    height: 140px
 }
 /*footer en colonne*/
 footer{
     display: flex;
     flex-direction: column;
-
 }
 }
