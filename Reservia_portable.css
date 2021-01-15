@@ -1,19 +1,23 @@
 @media all and (max-width: 600px)
 {
+
 header{
     width: auto;
     border: 1px red solid;
+    padding: 0;
     }
 #header{
-    height: 250px;
     width: 100%;
     border: 1px black solid;
 }
-
+#hebergements,
+#activites,
+#inscription{
+    padding: 0;
+}
 .nav_header{
-    flex-direction: column;
     border: 1px green solid;
-    height:252px;
+    margin: 0;
 }
 /*research*/
 /*slogan h1*/
@@ -46,23 +50,13 @@ header{
   display:none;
 }
 /*les filtres*/
-#selection2filtres{
+#selection_filtres{
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border: 1px red solid;
-}
-.bouton_filtres{
-    border: 1px green solid;
-}
-.Filtres{
-    border: 1px blue solid;
+    margin: 0 15px 0 -15px
 }
 /*les populaires*/
 .populaires{
     height: 667px;
-    border: 1px black solid;
     margin: -50px -34px 0 -34px;
     padding: 0
 }
@@ -72,7 +66,6 @@ header{
     margin-left: -13px;
 }
 .descrption_img_font7{
-    border: 1px black solid;
     padding: 0;
     margin: 0;
     width: auto;
@@ -97,7 +90,6 @@ header{
 .ensemble_images{
     height: 1280px;
     padding: 0 18px 0 18px;
-    border: 1px red solid;
 }
 #img_act1,
 #img_act2,

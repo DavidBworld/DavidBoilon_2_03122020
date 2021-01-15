@@ -8,9 +8,6 @@ header{
 #inscription{
     padding: -20px;
 }
-#header{
-	margin-right: -15px;
-}
 .titre_recherche h1{
     font-size: 20px;
 }
@@ -22,24 +19,30 @@ header{
 	display: inline-flex;
 	justify-content: center;
 	width: auto;
+	margin-top: -20px;
 }
 .icone2recherche{
 	width: 70%;
 }
 /*filtre*/
-#selection2filtres{
+#selection_filtres{
+	display: initial;
 	flex-direction: column;
-	align-content: flex-start;
-	height: auto;
-	width: auto;
+    align-content: flex-start;
+    height: auto;
+    width: auto;
+    padding-left: 10%
 }
 .selection2filtres{
 	flex-direction: row;
-	justify-content: space-around;
 	height: auto;
 	width: auto;
 	flex-wrap: wrap;
-	margin: 0 -30px 0 -30px;
+	margin: 0 -30px 0 15px;
+}
+.Filtres{
+    margin-left: 30px;
+    margin-top: -15px;
 }
 .bouton_filtres{
 	padding-bottom: 30px;
@@ -80,7 +83,6 @@ header{
     width: 100%;
     font-size: 1.2em;
 }
-
 .most_popular{
 	font-size: 1.1em;
 	padding-left: 20px;

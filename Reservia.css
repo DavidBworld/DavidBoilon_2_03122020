@@ -49,7 +49,7 @@ strong{
 header ,
 #section2recherche ,
 #recherche ,
-#selection2filtres ,
+#selection_filtres ,
 article ,
 #description_hébergement ,
 #résultat_activité ,
@@ -59,17 +59,16 @@ article ,
 /*Header avec logo et menu en haut à droite */
 .nav_header{
     display: flex;
+    margin-right: -30px;
 }
 #header a{
     text-decoration: none;
-
 }
 #header{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
 #hebergements,
 #activites,
@@ -146,20 +145,23 @@ article ,
     border-top-right-radius: 15px 15px;
     border-bottom-right-radius: 15px 15px;
 }
+.fa-search{
+    display:none;
+}
 /*selection de filtres */
 #filtres{
     display: flex;
     flex-direction: row;
 }
-#selection2filtres{
+#selection_filtres{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-bottom: 15px;
+    width: auto
 }
 .selection2filtres{
     display: flex;
     flex-direction: row;
+    width: auto
 }
 .bouton_filtres{
     display: flex;
@@ -214,9 +216,8 @@ content:" '></a> ";
 /*petit article info */
 article{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-left: 5px;
+    margin: 15px 0 15px 0; 
 }
 .icone_info{
     display: flex;
@@ -235,6 +236,9 @@ article p{
     font-size: 0.8em;
 }
 /*images des hébergements */
+.lien_hebergement{
+    width: 100%
+}
 #description_hébergement{
     display: flex;
     flex-direction: row;
