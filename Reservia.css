@@ -35,7 +35,6 @@
 html, body{
     margin: 0;
     padding: 0;
-    border: 2px black solid;
 }
 body{
     font-family: 'ralewaymedium', 'ralewaylight', 'ralewayblack', 'arial', sans-serif;
@@ -57,35 +56,37 @@ article ,
     padding: 0 30px 0 30px;
 }
 /*Header avec logo et menu en haut à droite */
-.nav_header{
-    display: flex;
-    margin-right: -30px;
+header{
+    width: auto;
 }
-#header a{
-    text-decoration: none;
-}
-#header{
+#header_main{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     align-items: center;
+    text-decoration: none;
+    width: auto;
+}
+#header_main a:nth-of-type(1){
+    flex-grow: 2;
 }
 #hebergements,
 #activites,
 #inscription{
     padding: 40px;
+    width: auto;
 }
-.nav_header a:nth-child(1):hover, 
-.nav_header a:nth-child(2):hover{
+#hebergements:hover, 
+#activites:hover{
     color: #0065FC;
     border-top: 1px solid #0065FC;
 }
-#header a:nth-of-type(3) {
+#inscription{
     font-weight: 600;
     color: #0065FC;    
 }
-
-
+.navigation_header{
+    height: auto;
+    width: auto;
+}
 /*icone loupe enlevée de la barre de recherche */
 .fa-search{
     display:none;
@@ -161,7 +162,7 @@ article ,
 .selection2filtres{
     display: flex;
     flex-direction: row;
-    width: auto
+    width: 100%
 }
 .bouton_filtres{
     display: flex;
@@ -179,10 +180,10 @@ article ,
     background-repeat:no-repeat;
 }
 .bouton_filtres p:hover:before { 
-content:" <a class=' ";
+content:" < ";
 }
 .bouton_filtres p:hover:after { 
-content:" '></a> ";
+content:" > ";
 }
 .bouton_filtres p{
     height: 40px;

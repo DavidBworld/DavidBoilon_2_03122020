@@ -1,19 +1,14 @@
 @media all and (max-width: 1024px){
 /*header*/
 header{
-	padding: 0 15px 0 15px;
+	padding-right: 0;   
 }
-#hebergements,
-#activites,
-#inscription{
-    padding: -20px;
-}
+/*slogan*/
 .titre_recherche h1{
     font-size: 20px;
 }
 .titre_recherche p, 
 .titre_recherche strong{
-
 }
 #recherche{
 	display: inline-flex;
@@ -38,7 +33,7 @@ header{
 	height: auto;
 	width: auto;
 	flex-wrap: wrap;
-	margin: 0 -30px 0 15px;
+	margin: 0 0 0 15px;
 }
 .Filtres{
     margin-left: 30px;
