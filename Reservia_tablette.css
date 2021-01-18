@@ -1,8 +1,4 @@
 @media all and (max-width: 1024px){
-/*header*/
-header{
-	padding-right: 0;   
-}
 /*slogan*/
 .titre_recherche h1{
     font-size: 20px;

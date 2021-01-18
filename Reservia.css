@@ -41,52 +41,42 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
-strong{
-    font-weight: normal;
+a {
+  color: inherit;
+  text-decoration: none;
 }
-/*padding de l'ensemble sauf le footer*/
-header ,
-#section2recherche ,
-#recherche ,
-#selection_filtres ,
-article ,
-#description_hébergement ,
-#résultat_activité ,
-.ensemble_images{
-    padding: 0 30px 0 30px;
-}
-/*Header avec logo et menu en haut à droite */
-header{
-    width: auto;
-}
-#header_main{
-    display: flex;
+.headerImg { grid-area: logo; }
+.headerNav { grid-area: nav; }
+.headerSignup { grid-area: signup; }
+
+.header{
+    display: grid;
     align-items: center;
-    text-decoration: none;
-    width: auto;
+    margin: auto;
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . nav signup";  
 }
-#header_main a:nth-of-type(1){
-    flex-grow: 2;
+.headerImg {
+    padding-left: 2rem;
+    height: 2rem;
 }
-#hebergements,
-#activites,
-#inscription{
-    padding: 40px;
-    width: auto;
-}
-#hebergements:hover, 
-#activites:hover{
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
-}
-#inscription{
+.headerNavLink { 
+    text-align: center;
+    padding: 2rem;
     font-weight: 600;
-    color: #0065FC;    
 }
-.navigation_header{
-    height: auto;
-    width: auto;
+.headerNavLink:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
 }
+.headerSignup {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  color: #0065FC;
+  font-weight: 600;
+}
+
 /*icone loupe enlevée de la barre de recherche */
 .fa-search{
     display:none;
@@ -162,7 +152,7 @@ header{
 .selection2filtres{
     display: flex;
     flex-direction: row;
-    width: 100%
+    width: 100%;
 }
 .bouton_filtres{
     display: flex;
