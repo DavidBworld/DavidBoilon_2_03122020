@@ -1,45 +1,14 @@
 @media all and (max-width: 1024px){
 /*slogan*/
-.titre_recherche h1{
-    font-size: 20px;
-}
-.titre_recherche p, 
-.titre_recherche strong{
-}
-#recherche{
-	display: inline-flex;
-	justify-content: center;
-	width: auto;
-	margin-top: -20px;
-}
-.icone2recherche{
-	width: 70%;
-}
-/*filtre*/
-#selection_filtres{
-	display: initial;
-	flex-direction: column;
-    align-content: flex-start;
-    height: auto;
-    width: auto;
-    padding-left: 10%
-}
-.selection2filtres{
-	flex-direction: row;
-	height: auto;
-	width: auto;
-	flex-wrap: wrap;
-	margin: 0 0 0 15px;
-}
-.Filtres{
-    margin-left: 30px;
-    margin-top: -15px;
-}
-.bouton_filtres{
-	padding-bottom: 30px;
-	margin-left: 10px;
-}
-
+.searchFiltersTitle{
+    width: 100%;
+  }
+.searchFiltersFilter{
+    margin-right: 1rem;
+  }
+.fa-search{
+    display: none !important;
+  }
 /*les bébergements et les populaires*/
 #description_hébergement{
 	height:1500px;
@@ -63,7 +32,7 @@
     height: 155px;
     width: 92%;
     margin-bottom: 35px;
-    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 .img_font6{
     width: 30%px;
@@ -76,9 +45,11 @@
 }
 .most_popular{
 	font-size: 1.1em;
-	padding-left: 20px;
 }
 /*les hébergements*/
+.marseille{
+	padding: 2rem 0 0 2rem;
+}
 .hébergement{
 	width: auto;
 	height: 890px;
@@ -93,10 +64,6 @@
     padding-top: 3px;
     padding-left: -3px;
     margin: 0 2% 3% 2%;
-}
-article{
-	padding-bottom: 40px;
-	margin-bottom: 30px;
 }
 .img_font1{
     width: 45%;
