@@ -1,0 +1,27 @@
+@media all and (max-width: 1024px){
+/*grille de recherche avec titre*/  
+.searchFiltersTitle{
+    width: 100%;
+  }
+.searchFiltersFilter{
+    margin-right: 1rem;
+  }
+.fa-search{
+    display: none !important;
+  }
+    .activity {
+    row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 12rem 12rem;
+  }
+ /*le footer*/
+footer{
+    height: auto;
+    width: auto;
+    background-color: #F2F2F2;
+    display: flex;
+}
+#titre_footer{
+    margin-right: 50px;
+}
+}
