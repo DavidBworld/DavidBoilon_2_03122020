@@ -90,8 +90,8 @@ a{
   box-sizing: border-box;
 }
 /*grille de recherche avec titre*/
-.searchart h1{
-    font-size:1.5rem; 
+.search h1{
+    font-size:1.3rem; 
 }
 .searchartTitle{
   margin-bottom: 0.5rem;
@@ -208,9 +208,13 @@ a{
 }
 /*images des hébergements */
 .lien_hebergement{
-    width: 100%
+    width: 100%;
 }
-#description_hébergement{
+.popularlink{
+  width: 100%;
+  display: flex;
+}
+.description_hebergement{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -232,14 +236,14 @@ a{
     font-weight: bold;
     color: black;
 }
-.hébergement{
+.hebergement{
     background: #F2F2F2;
     border-radius: 1rem 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
     width: 66%;
 }
-.selection_hébergement {
+.selection_hebergement {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -315,7 +319,6 @@ a{
 }
 .img_font4{
     display: flex;
-    flex-direction: row;
     align-items: center;
     background: white; 
     height: 140px;
@@ -326,10 +329,10 @@ a{
 .img_font5{
     display: flex;
     align-items: center;
-    width: 40%
+    width: 70%;
 }
 .img_font6{
-    margin: 8px 0 3px 6px;
+    padding: 2% 0 2% 5%;
     width: 100%;
     height:131px;
     border-radius: 1rem 0 0 1rem;
@@ -339,9 +342,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 130px;
-    width: 180px;
-    padding-left: 11%;
+    width: 100%;
+    padding-left: 1rem;
 }
 .descrption_img_font7 h3{
     padding-right: 3px;
@@ -349,7 +351,6 @@ a{
 }
 .star{
     display: flex;
-    flex-direction: row;
     margin-bottom: 10px;
     font-size: 0.7em;
 }
@@ -368,11 +369,11 @@ h3 {
     opacity: 15%;
     margin-left: 1%
 }
-#description_hébergement p {
+.description_hebergement p {
     font-size: 0.8em;
 }
 /*Activité*/
-#résultat_activité{
+.resultat_activite{
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 45px;
@@ -485,14 +486,14 @@ footer{
     background-color: #F2F2F2;
     display: flex;
 }
-#titre_footer{
+.titre_footer{
     margin-right: 140px;
     padding: 1rem 0 1rem 2rem;
 }
-#titre_footer h2{
+.titre_footer h2{
     font-size: 1.1em;
 }
-#footer_Nav li{
+.footer_Nav_puce li{
     text-decoration: none;
     list-style-type: none;
     margin-bottom: 5px;

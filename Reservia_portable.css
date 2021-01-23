@@ -71,23 +71,26 @@
 .marseille{
   padding: 0 2rem 1rem 1rem;
 }
-#description_hébergement{
+.description_hebergement{
   height: 2350px;
 }
 .img_font1{
   width: 100%;
 }
-.hébergement{
+.hebergement{
   width: auto;
   height: 1680px;
   margin: 0 -20px 0 -20px;
 }
-.selection_hébergement {
+.selection_hebergement {
   width: auto;
   height: 1600px;
 }
 .ensemble_images{
   height: 1280px;
+}
+.img_font6{
+    padding: 2% 0 2% 5%;
 }
 #img_act1,
 #img_act2,
